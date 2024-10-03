@@ -75,7 +75,7 @@ const movies = [
     title: 'Batman',
     rating: 9.2,
     year: 2022,
-    description: "Descrição do filme...",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     isFavorited: true,
   },
   {
@@ -83,7 +83,7 @@ const movies = [
     title: 'Avengers',
     rating: 9.2,
     year: 2019,
-    description: "Descrição do filme...",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     isFavorited: false
   },
   {
@@ -91,7 +91,7 @@ const movies = [
     title: 'Doctor Strange',
     rating: 9.2,
     year: 2022,
-    description: "Descrição do filme...",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     isFavorited: false
   }
 ];
