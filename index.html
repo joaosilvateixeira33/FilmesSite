@@ -1,40 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes populares</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Filmes populares</h1>
-        <div class="search-container">
-            <input type="search" name="" id="" placeholder="Digite algum filme para pesquisar..." class="search-input">
-            <img src="./images/search-icon.svg" alt="">
+  <main>
+    <h2>Filmes Populares</h2>
+    <div class="input-container">
+      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+    </div>
+    <div class="showOnlyFavorites">
+      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+    </div>
+    <div class="movies">
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Batman (2022)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="./images/Star-icon.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="./images/Heart-icon.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <p><input type="checkbox" name="" id="" class=""> Mostrar meus filmes favoritos apenas</p>
-    </header>
-    <main>
-        <div class="card_film">
-            <img src="./images/film-1.png" alt=" avengers">
-            <h3>Avengers Endgame (2019)</h3>
-            <div class="star-container">
-                <img src="./images/Star-icon.png" alt="star-icon">
-                <p>9.2</p>
-            </div>
-            <div class="heart-container">
-                <img src="./images/Heart-icon.svg" alt="heart icon">
-                <p>Favoritar</p>
-            </div>
-            <div class="description">
-                <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
-            </div>
+        <div class="movie-description">
+          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
         </div>
-    </main>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Batman (2022)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="./images/Star-icon.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="./images/Heart-icon.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        </div>
+      </div>
+
+      <div class="movie">
+        <div class="movie-informations">
+          <div class="movie-image">
+            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
+          </div>
+          <div class="movie-text">
+            <h4>Batman (2022)</h4>
+            <div class="rating-favorites">
+              <div class="rating">
+                <img src="./images/Star-icon.png" alt="Star Icon"/>
+                <span>9.2</span>
+              </div>
+              <div class="favorite">
+                <img src="./images/Heart-icon.svg" alt="Star Icon"/>
+                <span>Favoritar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="movie-description">
+          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
