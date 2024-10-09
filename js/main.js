@@ -1,5 +1,5 @@
 // js/main.js
-import { getPopularMovies, searchMovies } from './api.js';
+import { getPopularMovies, searchMovies } from './API.js';
 import { renderMovies } from './movies.js';
 import { getFavoriteMovies } from './storage.js';
 
